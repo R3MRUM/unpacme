@@ -8,7 +8,7 @@ https://www.unpac.me/
 * **upload_dir** - Upload all files contained within a specified directory
 * **get_analysis_report** - Retrieve analysis results for a given submission
 * **download_sample** - Download a sample matching a given sha256 hash
-* **download_sample** - Retrieves your submission history
+* **get_history** - Retrieves your submission history
 * **get_public_feed** - Retrieves the public feed data
 * **search_hash** - Retrieves information for a given hash
 * **get_remaining_quota** - Retrieves API quota remaining

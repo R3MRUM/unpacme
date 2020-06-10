@@ -178,7 +178,7 @@ class unpacme():
 		logging.info(f'Retrieving analysis status for {analysis_id}.')
 		status = self.__get_analysis_status(analysis_id)
 
-		if status != 'fail':
+		if status == 'fail':
 			logging.info(f'Analysis for {analysis_id} has failed.')
 			return status
 		
